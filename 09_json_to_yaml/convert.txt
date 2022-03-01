@@ -1,0 +1,64 @@
+
+json format 👇
+[
+  {
+    "id": 1,
+    "name": "sajan",
+    "email": "sajan@gmail.com",
+    "phone": 55655656,
+    "rating": {
+      "rate": 2,
+      "count": 3
+    },
+    "address": [
+      {
+        "adrees1": 44
+      },
+      {
+        "adrees2": 44
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "jhon doe",
+    "email": "jhon@gmail.com",
+    "phone": 23323265,
+    "rating": {
+      "rate": 0,
+      "count": 0
+    },
+    "address": [
+      {
+        "adrees1": "N-66"
+      },
+      {
+        "adrees2": "N-24"
+      }
+    ]
+  }
+]
+
+
+ Convert to Yaml Format 👇
+
+- id: 1
+  name: sajan
+  email: sajan@gmail.com
+  phone: 55655656
+  rating:
+   rate: 2
+   count: 3
+  address: 
+    - adrees1: 44
+    - adrees2: 44
+- id: 2
+  name: jhon doe
+  email: jhon@gmail.com
+  phone: 23323265
+  rating:
+   rate: 0
+   count: 0
+  address: 
+    - adrees1: N-66
+    - adrees2: N-24
